@@ -1,2 +1,40 @@
 # VIRTUALWORKS-LAB-HEALTHCARE-PHARMACY-DATA-ANALYTICS-INTERNSHIP-TASKS
 This repository includes projects done by SNEHA P as part of VIRTUALWORKS LAB INTERNSHIP. Projects are focused on Applied data analytics in healthcare, clinical, and pharmaceutical domains
+
+---
+# Healthcare Data Cleaning & Understanding  [ID: task1]
+Worked with a healthcare dataset containing patient information such as age, gender, disease, medication, and dosage. Explored the dataset, identified and cleaned missing or duplicate records, and performed basic analysis such as patient count, common diseases, and different patient age groups. 
+
+### 📄View Full Project: [Data_Cleaning_And_Basic_Analysis_PatientRecords.xlsx](./Data_Cleaning_And_Basic_Analysis_PatientRecords.xlsx)
+
+# Project Overview
+## Worsheet 1 - Unclean Patient Records
+1.Created a sample patient records dataset with missing and duplicate entries
+
+
+2.Identified and highlighted missing entries and duplicate patient IDs using Conditional Formatting.
+
+
+3.Created a SUMMARY OF ERRORS  spotted from dataset which summarized the number of duplicate patient IDs and missing entries using SUMPRODUCT, COUNTIF and COUUNTBLANK FUNCTIONS.
+
+
+### Worksheet 1- Unclean Patient Records SCREEN CAPTURE
+
+
+
+
+## Worksheet 2 - Clean & Analysed Patient Records
+1.Removed duplicate patient entries and filled in missing data.
+
+
+2.Built Pivot tables from Cleaned dataset and extracted key insights, including :
+
+ ✅Frequency of each disease
+
+✅Gender wise Prevalence of each disease 
+
+✅Highest Dosage Medications
+
+✅Age groups consulted
+
+ 
