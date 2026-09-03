@@ -19,7 +19,7 @@ Worked with a healthcare dataset containing patient information such as age, gen
 
 
 ### Worksheet 1- Unclean Patient Records SCREEN CAPTURE
-
+![Alt Text](Worksheet1_Unclean_Dataset.png)
 
 
 
@@ -38,3 +38,5 @@ Worked with a healthcare dataset containing patient information such as age, gen
 ✅Age groups consulted
 
  
+### Worksheet 2- Clean & Analysed Patient Records SCREEN CAPTURE
+![Alt Text](Worksheet2_Clean_Analysed_Dataset.png)
