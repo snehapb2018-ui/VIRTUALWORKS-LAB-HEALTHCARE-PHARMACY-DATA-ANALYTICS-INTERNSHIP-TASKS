@@ -19,7 +19,7 @@ Created visual representations of healthcare data using charts and graphs. Using
 
 
 ## Worksheet 3 - Data Visualization
-1. Built Pivot charts out of the pivot tables in 2nd worksheet.
+1. Built Pivot charts from the pivot tables of 2nd worksheet.
 
 
 2. Added slicers beside each pivot chart to clearly extract specific information.For example, in the slicer beside pivot chart representing Frequency of Diseases,one can select any of the diseases,say Diabetes and the pivot chart will display number of patients affected with diabetes.
