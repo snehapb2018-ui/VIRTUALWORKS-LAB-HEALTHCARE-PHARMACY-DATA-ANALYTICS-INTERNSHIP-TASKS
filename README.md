@@ -8,6 +8,32 @@ Created visual representations of healthcare data using charts and graphs. Using
 
 ### 📄View Full Project: [Dataset_Visualisation_PatientRecords.xlsx](./Dataset_Visualisation_PatientRecords.xlsx)
 
+# Project Overview
+## Worheet 2 - Clean and Analysed Patient Records
+1. Created a visualization of the various disease trends among female/male patients using Column Sparklines in the pivot table representing Gender wise disease distribution
+
+
+### Worksheet 2- Clean & Analysed Patient Records SCREEN CAPTURE
+
+![Alt Text](Worksheet2_VISUALISATION_OF_DISEASE_TRENDS_GENDER_WISE.png)
+
+
+## Worksheet 3 - Data Visualization
+1. Built Pivot charts out of the pivot tables in 2nd worksheet.
+
+
+2. Added slicers beside each pivot chart to clearly extract specific information.For example, in the slicer beside pivot chart representing Frequency of Diseases,one can select any of the diseases,say Diabetes and the pivot chart will display number of patients affected with diabetes.
+
+
+### Worksheet 3 - Data Visualization SCREEN CAPTURE
+
+![Alt Text](Worksheet3_DATA_VISUALIZATION_CHARTS_SLICERS_FREQUENCY_GENDER.png)
+
+
+![Alt Text](Worksheet3_DATA_VISUALIZATION_CHARTS_SLICERS_AGEWISE_DOSAGE.png)
+
+
+---
 ---
 # Healthcare Data Cleaning & Understanding  [ID: task1]
 Worked with a healthcare dataset containing patient information such as age, gender, disease, medication, and dosage. Explored the dataset, identified and cleaned missing or duplicate records, and performed basic analysis such as patient count, common diseases, and different patient age groups. 
