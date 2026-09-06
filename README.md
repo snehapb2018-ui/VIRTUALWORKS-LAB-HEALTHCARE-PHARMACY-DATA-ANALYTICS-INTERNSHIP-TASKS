@@ -34,7 +34,7 @@ Highlighted the following using Conditional formatting:
 ![Alt Text](ADR_ANALYSIS_DATASET.png)
 
 
-![Alt Text](ADR_ANALYSIS_SUMMARY_PIVOT TABLES.png)
+![Alt Text](ADR_ANALYSIS_SUMMARY_PIVOT%20TABLE.png)
 
 
 ## Worksheet 2-ADR ANALYSIS VISUALIZATION
