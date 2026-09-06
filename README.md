@@ -34,7 +34,7 @@ Highlighted the following using Conditional formatting:
 ![Alt Text](ADR_ANALYSIS_DATASET.png)
 
 
-![Alt Text](ADR_ANALYSIS_SUMMARY_PIVOT%20TABLE.png)
+![Alt Text](ADR_ANALYSIS_SUMMARY_PIVOT%20TABLES.png)
 
 
 ## Worksheet 2-ADR ANALYSIS VISUALIZATION
@@ -54,6 +54,8 @@ Highlighted the following using Conditional formatting:
 
 
 ## KEY INSIGHTS
+
+✅A total of 25 ADRs were reported
 
 ✅Most serious ADRs happened with Diclofenac 
 
