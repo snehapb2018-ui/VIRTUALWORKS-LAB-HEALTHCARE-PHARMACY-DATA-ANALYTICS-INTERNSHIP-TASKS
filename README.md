@@ -9,14 +9,61 @@ Analyzed ADR datasets containing patient details, medication usage,ADR reported,
 
 # Project Overview
 ## Worksheet 1 - ADR Analysis 
-1.Created an ADR report dataset with patient details, medication usage,ADR reported, SOC affected and onset timelines to determine seriousness of ADRs.SERIOUS Column was entered considering ONSET column values using IF Function- ADRs with onset of more than 2 days was labelled serious.
+1.Created an ADR dataset with patient details, medication usage,ADR reported, SOC affected and onset timelines to determine seriousness of ADRs.SERIOUS Column was entered considering ONSET column values using IF Function- ADRs with onset of more than 2 days was labelled serious.
 
-Highlighted ADRs with onset of not more than 2 days with green, Cells with Serious column entry YES with red using Conditional formatting
+Highlighted the following using Conditional formatting:
 
-2.Summarised total ADR reports,percentage of serious ADRs reported, SOC-wise ADR distribution, countries which reported ADRs
+✅ADRs with onset of not more than 2 days with green
 
-3.Built Pivot tables on Country wise reported ADR percentage, DRUG WISE SERIOUS/UNSERIOUS ADRs DISTRIBUTION.
+✅Serious column entry YES with red 
 
+2.Summarised the following using Excel functions:
+
+✅total ADR reports [COUNTA FORMULA]
+
+✅percentage of serious ADRs reported[basic percentage formula]
+
+✅SOC-wise ADR distribution, Number of serious ADRs[COUNTIF FORMULA]
+
+✅countries which reported ADRs[UNIQUE FORMULA]
+
+3.Built Pivot tables on Country-wise percentage of reported ADRs , DRUG WISE SERIOUS/UNSERIOUS ADRs DISTRIBUTION.
+
+### Worksheet 1- ADR ANALYSIS SCREEN CAPTURE
+
+![Alt Text](ADR_ANALYSIS_DATASET.png)
+
+
+![Alt Text](ADR_ANALYSIS_SUMMARY_PIVOT TABLES.png)
+
+
+## Worksheet 2-ADR ANALYSIS VISUALIZATION
+
+1.Built Pivot charts based on :
+
+✅COUNTRY WISE PERCENTAGE OF REPORTED ADRs 
+
+✅SOC WISE ADR REPORTING
+
+✅DRUG WISE SERIOUS/UNSERIOUS ADRs[Drug Slicer included]
+
+
+### Worksheet 2- ADR ANALYSIS VISUALIZATION SCREEN CAPTURE
+
+![Alt Text](ADR_ANALYSIS_VISUALIZATION.png)
+
+
+## KEY INSIGHTS
+
+✅Most serious ADRs happened with Diclofenac 
+
+✅High risk medicines include Diclofenac, Allopurinol and Metformin
+
+✅India reported with most ADRs
+
+✅Most ADRs were associated with Gastrointestinal and Skin disorders
+
+✅68% of ADRs were reported serious
 
 
 ---
