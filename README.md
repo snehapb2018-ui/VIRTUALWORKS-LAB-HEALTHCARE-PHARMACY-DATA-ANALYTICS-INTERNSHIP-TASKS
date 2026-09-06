@@ -2,6 +2,25 @@
 This repository includes projects done by SNEHA P as part of VIRTUALWORKS LAB INTERNSHIP. Projects are focused on Applied data analytics in healthcare, clinical, and pharmaceutical domains
 
 ---
+# Adverse Drug Reaction Data Analysis[ID:task4]
+Analyzed ADR datasets containing patient details, medication usage,ADR reported, SOC affected and onset timelines to determine seriousness of ADRs. Identified high-risk medicines, commonly reported ADRs, most ADR reported countries and evaluated percentage of serious ADRs reported.
+
+### View Full Project: [ADR_ANALYSIS.xlsx](./ADR_ANALYSIS.xlsx)
+
+# Project Overview
+## Worksheet 1 - ADR Analysis 
+1.Created an ADR report dataset with patient details, medication usage,ADR reported, SOC affected and onset timelines to determine seriousness of ADRs.SERIOUS Column was entered considering ONSET column values using IF Function- ADRs with onset of more than 2 days was labelled serious.
+
+Highlighted ADRs with onset of not more than 2 days with green, Cells with Serious column entry YES with red using Conditional formatting
+
+2.Summarised total ADR reports,percentage of serious ADRs reported, SOC-wise ADR distribution, countries which reported ADRs
+
+3.Built Pivot tables on Country wise reported ADR percentage, DRUG WISE SERIOUS/UNSERIOUS ADRs DISTRIBUTION.
+
+
+
+---
+---
 # Pharmacy Sales and Drug Analysis [ID: task3]
 Analyzed pharmacy sales data to identify medicine usage trends and revenue patterns. Evaluated top-selling medicines, monthly sales growth, and compared branded versus generic medicines using sales datasets.
 
