@@ -2,8 +2,25 @@
 This repository includes projects done by SNEHA P as part of VIRTUALWORKS LAB INTERNSHIP. Projects are focused on Applied data analytics in healthcare, clinical, and pharmaceutical domains
 
 ---
+---
+
+
+# Healthcare Predictive Analytics[ID: task5]
+
+Developed a basic predictive analytics project using heart disease patient records. Built and evaluated a simple heart disease predictive model using analytical tools in Excel
+
+### VIEW FULL PROJECT :  [PREDICTION_MODEL_HEART_DISEASE.xlsx](./PREDICTION_MODEL_HEART_DISEASE.xlsx)
+
+# Project Overview
+## Worksheet 1 - ACTUAL DATASET
+1.Created a dataset of 32 patient records including details of heart disease, age,BMI,blood pressure, smoking habit and diabetic history.
+2.Derived influence of various parameters on heart disease incidence.
+
+## WORKSHEET 2 - LOGISTIC_REGRESSION&EVALUATION
+1.Created a prediction table using Regression analysis feature of Excel.
+---
 # Adverse Drug Reaction Data Analysis[ID:task4]
-Analyzed ADR datasets containing patient details, medication usage,ADR reported, SOC affected and onset timelines to determine seriousness of ADRs. Identified high-risk medicines, commonly reported ADRs, most ADR reported countries and evaluated percentage of serious ADRs reported.
+Analyzed ADR datasets containing patient details, medication usage,ADR reported, SOC affected and onset timelines to determine seriousne.ss of ADRs. Identified high-risk medicines, commonly reported ADRs, most ADR reported countries and evaluated percentage of serious ADRs reported.
 
 ### View Full Project: [ADR_ANALYSIS.xlsx](./ADR_ANALYSIS.xlsx)
 
