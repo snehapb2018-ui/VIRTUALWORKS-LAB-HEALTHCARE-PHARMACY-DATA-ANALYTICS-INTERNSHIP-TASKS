@@ -14,10 +14,11 @@ Developed a basic predictive analytics project using heart disease patient recor
 # Project Overview
 ## Worksheet 1 - ACTUAL DATASET
 1.Created a dataset of 32 patient records including details of heart disease, age,BMI,blood pressure, smoking habit and diabetic history.
-2.Derived influence of various parameters on heart disease incidence.
+2.Analysed the influence of various parameters on heart disease incidence.
+
 
 ## WORKSHEET 2 - LOGISTIC_REGRESSION&EVALUATION
-1.Created a prediction table using Regression analysis feature of Excel.
+1.Created a prediction table of the patient records.
 ---
 # Adverse Drug Reaction Data Analysis[ID:task4]
 Analyzed ADR datasets containing patient details, medication usage,ADR reported, SOC affected and onset timelines to determine seriousne.ss of ADRs. Identified high-risk medicines, commonly reported ADRs, most ADR reported countries and evaluated percentage of serious ADRs reported.
