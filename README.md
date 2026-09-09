@@ -18,7 +18,8 @@ Developed a basic predictive analytics project using heart disease patient recor
 
 
 ## WORKSHEET 2 - LOGISTIC_REGRESSION&EVALUATION
-1.Created a prediction table of the patient records.
+1.Created a prediction table of the patient records. Created a binary value column for Actual disease[Heart Disease-1,No Disease-0], Diabetes[Yes-1,No-0]and Smoking[Yes-1,No-0].
+
 ---
 # Adverse Drug Reaction Data Analysis[ID:task4]
 Analyzed ADR datasets containing patient details, medication usage,ADR reported, SOC affected and onset timelines to determine seriousne.ss of ADRs. Identified high-risk medicines, commonly reported ADRs, most ADR reported countries and evaluated percentage of serious ADRs reported.
