@@ -17,7 +17,9 @@ Developed a basic predictive analytics project using heart disease patient recor
 ## Worksheet 1 - ACTUAL DATASET
 
 1.Created a dataset of 32 patient records including details of heart disease, age,BMI,blood pressure, smoking habit and diabetic history.
+
 2.Created a summary table of patients with heart disease using COUNTIF.
+
 3.Analysed the influence of various parameters on heart disease incidence using PIVOT TABLES & PIVOT CHARTS.
 Applied PIVOT TABLE GROUPING to group data like age,BMI & BP.
 
@@ -140,6 +142,8 @@ Created charts from the following:
 ✅LOGISTIC REGRESSION MODEL shows high performance metrics compared to DECISION TREE MODEL.
 
 ✅LOGISTIC REGRESSION MODEL is more reliable compared to DECISION TREE MODEL.
+
+✅LOGISTIC REGRESSION predicted 23 heart disease patients whereas DECISION TREE MODEL predicted 22 heart disease patients.
 
 
 
