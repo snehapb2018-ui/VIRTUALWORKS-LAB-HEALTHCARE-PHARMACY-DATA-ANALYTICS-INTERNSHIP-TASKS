@@ -19,7 +19,7 @@ Developed a basic predictive analytics project using heart disease patient recor
 
 ## Worksheet 1- ACTUAL DATASET SCREEN CAPTURE
 
-![Alt Text](ACTUAL_DATASET _SUMMARY_AGE_SYSTOLICBP.png)
+![Alt Text](ACTUAL_DATASET_SUMMARY_AGE_SYSTOLICBP.png)
 
 ![Alt Text](ACTUAL_DIASTOLICBP_BMI.png)
 
