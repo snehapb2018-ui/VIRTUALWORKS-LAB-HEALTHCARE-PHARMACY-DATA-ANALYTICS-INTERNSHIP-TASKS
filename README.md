@@ -7,7 +7,7 @@ This repository includes projects done by SNEHA P as part of VIRTUALWORKS LAB IN
 
 # Healthcare Predictive Analytics[ID: task5]
 
-Developed a basic predictive analytics project using heart disease patient records. Built and evaluated a simple heart disease predictive model using analytical tools in Excel
+Developed a basic predictive analytics project using heart disease patient records. Built and evaluated 2 simple heart disease predictive models - LOGISTIC REGRESSION & DECISION TREE models in Excel.
 
 ### VIEW FULL PROJECT :  [PREDICTION_MODEL_HEART_DISEASE.xlsx](./PREDICTION_MODEL_HEART_DISEASE.xlsx)
 
