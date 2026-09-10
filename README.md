@@ -30,13 +30,13 @@ Developed a basic predictive analytics project using heart disease patient recor
 
 1.Created a prediction table of the patient records. 
 
-Created binary value columns for 
+Created binary value columns for: 
 
-Actual disease[Heart Disease-1,No Disease-0]
+✅Actual disease[Heart Disease-1,No Disease-0]
 
-Diabetes[Yes-1,No-0]
+✅Diabetes[Yes-1,No-0]
 
-Smoking[Yes-1,No-0].
+✅Smoking[Yes-1,No-0].
 
 2.Generated a summary output table including intercept,coefficients for each feature[age,BP,BMI,Systolic BP,Diastolic BP,smoking].
 
@@ -48,15 +48,17 @@ The table was generated using Regression function of Excel Analysis ToolPak.
 
 ✅Predicted Probability P: Was calculated using formula 1 / (1 + EXP(-Z))
 
-4.0.64 was chosen as THRESHOLD for Prediction.
+4.  A threshold value was chosen to predict heart disease.If Predicted probability is greater than or equal to this value,the case was predicted as Heart Disease.
+
+   0.64 was chosen as THRESHOLD for Prediction.
 
 This helped reduce false positives and maximize overall accuracy.Ensured that only patients with high predicted probability were predicted positive.
 
-5. A column was added to check whether predicted interpretation and actual interpretation were same.
+5.A column was added to check whether predicted interpretation and actual interpretation were same.
 
 ### OUTPUT OF LOGISTIC REGRESSION MODEL :PREDICTED 23 OUT OF 32 PATIENTS HAVE HEART DISEASE
 
-6. A confusion matrix was built with outcomes True Positive (TP), True Negative (TN), False Positive (FP), False Negative (FN). 
+6.A confusion matrix was built with outcomes True Positive (TP), True Negative (TN), False Positive (FP), False Negative (FN). 
 
 This helps evaluate classification models by summarizing predictions against actual targets in a grid format.
 
