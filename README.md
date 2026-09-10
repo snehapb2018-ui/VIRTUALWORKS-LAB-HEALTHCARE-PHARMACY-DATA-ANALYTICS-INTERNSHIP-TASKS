@@ -17,14 +17,26 @@ Developed a basic predictive analytics project using heart disease patient recor
 1.Created a dataset of 32 patient records including details of heart disease, age,BMI,blood pressure, smoking habit and diabetic history.
 2.Analysed the influence of various parameters on heart disease incidence.
 
+## Worksheet 1- ACTUAL DATASET SCREEN CAPTURE
+
+![Alt Text](ACTUAL_DATASET _SUMMARY_AGE_SYSTOLICBP.png)
+
+![Alt Text](ACTUAL_DIASTOLICBP_BMI.png)
+
+![Alt Text](ACTUAL_DIABETES_SMOKING.png)
+
 
 ##  WORKSHEET 2 - LOGISTIC_REGRESSION&EVALUATION
 
 1.Created a prediction table of the patient records. 
 
-Created binary value columns for Actual disease
+Created binary value columns for 
 
-[Heart Disease-1,No Disease-0], Diabetes[Yes-1,No-0]and Smoking[Yes-1,No-0].
+Actual disease[Heart Disease-1,No Disease-0]
+
+Diabetes[Yes-1,No-0]
+
+Smoking[Yes-1,No-0].
 
 2.Generated a summary output table including intercept,coefficients for each feature[age,BP,BMI,Systolic BP,Diastolic BP,smoking].
 
@@ -36,8 +48,22 @@ The table was generated using Regression function of Excel Analysis ToolPak.
 
 ✅Predicted Probability P: Was calculated using formula 1 / (1 + EXP(-Z))
 
+4.0.64 was chosen as THRESHOLD for Prediction.
 
-✅
+This helped reduce false positives and maximize overall accuracy.Ensured that only patients with high predicted probability were predicted positive.
+
+5. A column was added to check whether predicted interpretation and actual interpretation were same.
+
+### OUTPUT OF LOGISTIC REGRESSION MODEL :PREDICTED 23 OUT OF 32 PATIENTS HAVE HEART DISEASE
+
+6. A confusion matrix was built with outcomes True Positive (TP), True Negative (TN), False Positive (FP), False Negative (FN). 
+
+This helps evaluate classification models by summarizing predictions against actual targets in a grid format.
+
+Performance metrics- Accuracy,Precision,Recall(Sensitivity),F1 score were derived with the outcomes.
+
+
+
 ---
 # Adverse Drug Reaction Data Analysis[ID:task4]
 Analyzed ADR datasets containing patient details, medication usage,ADR reported, SOC affected and onset timelines to determine seriousne.ss of ADRs. Identified high-risk medicines, commonly reported ADRs, most ADR reported countries and evaluated percentage of serious ADRs reported.
