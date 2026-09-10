@@ -11,11 +11,15 @@ Developed a basic predictive analytics project using heart disease patient recor
 
 ### VIEW FULL PROJECT :  [PREDICTION_MODEL_HEART_DISEASE.xlsx](./PREDICTION_MODEL_HEART_DISEASE.xlsx)
 
+---
+
 # Project Overview
 ## Worksheet 1 - ACTUAL DATASET
 
 1.Created a dataset of 32 patient records including details of heart disease, age,BMI,blood pressure, smoking habit and diabetic history.
-2.Analysed the influence of various parameters on heart disease incidence.
+2.Created a summary table of patients with heart disease using COUNTIF.
+3.Analysed the influence of various parameters on heart disease incidence using PIVOT TABLES & PIVOT CHARTS.
+Applied PIVOT TABLE GROUPING to group data like age,BMI & BP.
 
 ## Worksheet 1- ACTUAL DATASET SCREEN CAPTURE
 
@@ -30,7 +34,7 @@ Developed a basic predictive analytics project using heart disease patient recor
 
 1.Created a prediction table of the patient records. 
 
-Created binary value columns for: 
+Created binary value columns using IF function for the following to facilitate z linear score calculation: 
 
 ✅Actual disease[Heart Disease-1,No Disease-0]
 
@@ -40,23 +44,27 @@ Created binary value columns for:
 
 2.Generated a summary output table including intercept,coefficients for each feature[age,BP,BMI,Systolic BP,Diastolic BP,smoking].
 
-The table was generated using Regression function of Excel Analysis ToolPak.
+The table was generated using Regression feature of Excel Analysis ToolPak.
 
 3.For all patients,the following were calculated:
 
-✅LINEAR SCORE Z : Was calculated by taking the model's intercept plus the sum of each feature multiplied by its respective coefficient.Z score helps us know how far the data point is from the mean.
+✅LINEAR SCORE Z : Was calculated by taking the model's intercept plus the sum of each feature multiplied by its respective coefficient.Z score helps us know how far the data point is from the mean. 
+
+SUMPRODUCT & TRANSPOSE FUNCTIONS were included in Z formula for each patient record.
 
 ✅PREDICTED PROBABILITY P: Was calculated using formula 1 / (1 + EXP(-Z))
 
-4.  A THRESHOLD value was chosen to predict heart disease.If Predicted probability,P is greater than or equal to this value,the case was predicted as "Heart Disease"
+4.  A THRESHOLD value was chosen to predict heart disease.If Predicted probability,P is greater than or equal to this value,the case was predicted as "Heart Disease".
+
+Used IF function for Prediction.
 
    0.64 was chosen as THRESHOLD for Prediction.
 
 This value helped reduce false positives, maximize overall accuracy and ensured that only patients with high P were interpreted to have heart disease.
 
-5.A column was added to check whether predicted interpretation and actual interpretation were same.
+5.A column including binary data variables was added to check whether predicted interpretation and actual interpretation were same. [IF function]
 
-6.A binary column for Predictions were added where Heart Disease was given 1 & No Disease was given 0.
+6.A binary column for Predictions were added where Heart Disease was given 1 & No Disease was given 0.[IF FUNCTION]
 
 
 ### OUTPUT OF LOGISTIC REGRESSION MODEL :PREDICTED 23 OUT OF 32 PATIENTS HAVE HEART DISEASE
@@ -69,8 +77,73 @@ Performance metrics such as Accuracy,Precision,Recall(Sensitivity),F1 score were
 
 ## Worksheet 2- LOGISTIC_REGRESSION& EVALUATION SCREEN CAPTURE
 
-![Alt Text](.png)
+![Alt Text](REGRESSION_COEFFICIENTS.png)
 
+![Alt Text](SUMMARY_Z_P.png)
+
+![Alt Text](PREDICTED_DATASET_REGRESSION.png)
+
+![Alt Text](PERFORMANCE_REGRESSION.png)
+
+
+## Worksheet 3- DECISION_TREE
+
+1.Created a prediction table including Prediction column.Compared the predicted interpretations with actual interpretation.
+
+2.Prediction was done based on certain DECISION RULES [IFS FUNCTION used]. Created a SUMMARY TABLE of predictions using COUNTIF.
+
+3.A CONFUSION MATRIX was built.
+
+4.Performance metrics-Accuracy,precision,recall and F1 score were calculated using formulas.
+
+### OUTPUT OF DECISION TREE MODEL: 22 OUT OF 32 PATIENTS WERE PREDICTED TO HAVE HEART DISEASE.
+
+## WORKSHEET 3-DECISION_TREE SCREEN CAPTURE
+
+![Alt Text](DECISION_TREE_PREDICTION.png)
+
+![Alt Text](DECISION_RULES_SUMMARY.png)
+
+![Alt Text](PERFORMANCE_DECISION_TREE.png)
+
+
+## Worksheet 4- PREDICTION_MODEL_NEW_PATIENT
+
+1.Created a LOGISTIC REGRESSION & DECISION TREE MODEL for Heart disease prediction of new patient applying respective rules.
+
+## WORKSHEET 4-PREDICTION_MODEL_NEW_PATIENT SCREEN CAPTURE
+
+![Alt Text](NEW_PATIENT_PREDICTION.png)
+
+## Worksheet 5- MODEL_EVALUATION
+
+Created charts from the following:
+
+✅PREDICTION SUMMARY TABLES[BOTH LOGISTIC REGRESSION & DECISION TREE MODELS]
+
+✅PERFORMANCE METRICS TABLES[BOTH LOGISTIC REGRESSION & DECISION TREE MODELS]
+
+✅IMPACT OF PARAMETERS LIKE AGE,BP,BMI & SMOKING ON HEART DISEASE PREDICTION
+
+## WORKSHEET 5- MODEL_EVALUATION SCREEN CAPTURE
+
+![Alt Text](MODEL_EVALUATION.png)
+
+## KEY INSIGHTS
+
+✅According to actual dataset,23 out of 32 patients had heart disease.
+
+✅Patients of Age group-50 to 59 years, with Blood Pressure- 129-120/94-85 mm Hg and BMI 23-28 were more likely to have heart disease.
+
+✅Diabetes and smoking were major contributing factors for Heart Disease.
+
+✅LOGISTIC REGRESSION MODEL shows high performance metrics compared to DECISION TREE MODEL.
+
+✅LOGISTIC REGRESSION MODEL is more reliable compared to DECISION TREE MODEL.
+
+
+
+---
 ---
 # Adverse Drug Reaction Data Analysis[ID:task4]
 Analyzed ADR datasets containing patient details, medication usage,ADR reported, SOC affected and onset timelines to determine seriousne.ss of ADRs. Identified high-risk medicines, commonly reported ADRs, most ADR reported countries and evaluated percentage of serious ADRs reported.
