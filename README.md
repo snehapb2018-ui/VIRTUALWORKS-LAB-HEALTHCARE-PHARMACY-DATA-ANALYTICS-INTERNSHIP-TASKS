@@ -21,7 +21,7 @@ Developed a basic predictive analytics project using heart disease patient recor
 2.Created a summary table of patients with heart disease using COUNTIF.
 
 3.Analysed the influence of various parameters on heart disease incidence using PIVOT TABLES & PIVOT CHARTS.
-Applied PIVOT TABLE GROUPING to group data like age,BMI & BP.
+Applied PIVOT TABLE GROUPING to create ranges for age,BMI & BP.
 
 ## Worksheet 1- ACTUAL DATASET SCREEN CAPTURE
 
