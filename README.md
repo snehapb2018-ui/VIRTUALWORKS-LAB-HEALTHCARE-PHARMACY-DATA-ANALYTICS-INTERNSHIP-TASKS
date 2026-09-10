@@ -44,27 +44,32 @@ The table was generated using Regression function of Excel Analysis ToolPak.
 
 3.For all patients,the following were calculated:
 
-✅Linear score Z : Was calculated by taking the model's intercept plus the sum of each feature multiplied by its respective coefficient.
+✅LINEAR SCORE Z : Was calculated by taking the model's intercept plus the sum of each feature multiplied by its respective coefficient.Z score helps us know how far the data point is from the mean.
 
-✅Predicted Probability P: Was calculated using formula 1 / (1 + EXP(-Z))
+✅PREDICTED PROBABILITY P: Was calculated using formula 1 / (1 + EXP(-Z))
 
-4.  A threshold value was chosen to predict heart disease.If Predicted probability is greater than or equal to this value,the case was predicted as Heart Disease.
+4.  A THRESHOLD value was chosen to predict heart disease.If Predicted probability,P is greater than or equal to this value,the case was predicted as "Heart Disease"
 
    0.64 was chosen as THRESHOLD for Prediction.
 
-This helped reduce false positives and maximize overall accuracy.Ensured that only patients with high predicted probability were predicted positive.
+This value helped reduce false positives, maximize overall accuracy and ensured that only patients with high P were interpreted to have heart disease.
 
 5.A column was added to check whether predicted interpretation and actual interpretation were same.
 
+6.A binary column for Predictions were added where Heart Disease was given 1 & No Disease was given 0.
+
+
 ### OUTPUT OF LOGISTIC REGRESSION MODEL :PREDICTED 23 OUT OF 32 PATIENTS HAVE HEART DISEASE
 
-6.A confusion matrix was built with outcomes True Positive (TP), True Negative (TN), False Positive (FP), False Negative (FN). 
+7.A CONFUSION MATRIX was built with outcomes True Positive (TP), True Negative (TN), False Positive (FP), False Negative (FN). 
 
-This helps evaluate classification models by summarizing predictions against actual targets in a grid format.
+This matrix helps evaluate classification models by summarizing predictions against actual targets in a grid format.
 
-Performance metrics- Accuracy,Precision,Recall(Sensitivity),F1 score were derived with the outcomes.
+Performance metrics such as Accuracy,Precision,Recall(Sensitivity),F1 score were derived using formulas incorporating the outcomes-TP,TN,FP,FN.
 
+## Worksheet 2- LOGISTIC_REGRESSION& EVALUATION SCREEN CAPTURE
 
+![Alt Text](.png)
 
 ---
 # Adverse Drug Reaction Data Analysis[ID:task4]
